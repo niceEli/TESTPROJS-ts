@@ -1,4 +1,5 @@
-console.log("this works");
+export function ThisFuncWorks() {
+  console.log("this works");
 }
 
 export function nienTenTwentiWon(nien: number, Ten: number) {
