@@ -1,7 +1,4 @@
-import console from "console";
-
-export function ThisFuncWorks() {
-  console.log("this works");
+console.log("this works");
 }
 
 export function nienTenTwentiWon(nien: number, Ten: number) {
