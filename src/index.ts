@@ -4,7 +4,7 @@ import { argSetup } from "./argsetup";
 const args = argSetup();
 
 if (args.length === 0) {
-  console.log("you need to give args")
+  console.log("400: Bad Request. You Need Command Line Arguments")
   process.exit(400)
 }
 
